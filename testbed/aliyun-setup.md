@@ -11,19 +11,22 @@ Download/Clone CUDA-Samples to local Ubuntu machine, zip the package, upload it 
 git clone
 
 ```shell
-
+sudo apt-get update -y | apt-get install -y git
+sudo git --version
+sudo git clone https://github.com/NVIDIA/cuda-samples.git
 ```
 
 zip
 
 ```shell
-
+apt-get install zip -y
+zip -r cuda-samples.zip cuda-samples/
 ```
 
-scp
+scp the zip file to cloud instance
 
 ```shell
-
+scp cuda-samples.zip ecs-user@60.205.105.106:/tmp
 ```
 
 unzip
