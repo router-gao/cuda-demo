@@ -34,6 +34,7 @@ scp cuda-samples.zip ecs-user@[public-ip]:/tmp
 unzip
 
 ```shell
-
+cd /tmp/
+unzip cuda-samples.zip
 ```
 
