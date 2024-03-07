@@ -5,6 +5,8 @@
 ![Image](https://github.com/router-gao/cuda-demo/assets/144886373/bea04070-dc3b-43ee-9fa0-a18b9af7c0b6)
 
 
+![image](https://github.com/router-gao/cuda-demo/assets/144886373/a39e4232-fbf3-4b0a-b3fb-c904a55e993d)
+
 
 Download/Clone CUDA-Samples to local Ubuntu machine, zip the package, upload it to Aliyun and unzip it.
 
@@ -26,7 +28,7 @@ zip -r cuda-samples.zip cuda-samples/
 scp the zip file to cloud instance
 
 ```shell
-scp cuda-samples.zip ecs-user@60.205.105.106:/tmp
+scp cuda-samples.zip ecs-user@[public-ip]:/tmp
 ```
 
 unzip
