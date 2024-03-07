@@ -9,6 +9,8 @@ $$
 Performance (TFLOPS)=Core Count×Core Clock Frequency (GHz)×Operations Per Clock Cycle
 
 $$
+
+
 From the deviceQuery output, we have:
 
 - **Core Count**: 2560 CUDA Cores
