@@ -7,6 +7,7 @@ The single-precision performance of the Tesla T4 based on the deviceQuery output
 
 $$
 Performance (TFLOPS)=Core Count×Core Clock Frequency (GHz)×Operations Per Clock Cycle
+
 $$
 From the deviceQuery output, we have:
 
